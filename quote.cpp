@@ -8,7 +8,8 @@ char *adjective[10] = {"happy", "sad", "good", "bad", "exciting", "boring", "oka
 char *verb[8] = {"love", "see", "feel", "are", "learn", "live", "die", "think"};
 
 int main() {
-	int word1 = rand()% 5;
+	int seed = rand() % 1000;
+	int word1 = rand() % 5;
 	int word2 = rand() % 5;
 	int word3 = rand() % 9;
 	int word4 = rand() % 7;
